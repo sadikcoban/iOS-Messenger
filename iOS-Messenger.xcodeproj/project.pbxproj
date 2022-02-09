@@ -21,6 +21,7 @@
 		94F3971127B420E20020EA72 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F3971027B420E20020EA72 /* VideoPlayerViewController.swift */; };
 		94F3971327B420E70020EA72 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F3971227B420E70020EA72 /* ProfileViewController.swift */; };
 		94F3971627B428AA0020EA72 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F3971527B428AA0020EA72 /* Extensions.swift */; };
+		94F3971827B443C50020EA72 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 94F3971727B443C50020EA72 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		94F3971027B420E20020EA72 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
 		94F3971227B420E70020EA72 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		94F3971527B428AA0020EA72 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		94F3971727B443C50020EA72 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B5AB9DE2DE47569085A0EFE0 /* Pods_iOS_Messenger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Messenger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -70,7 +72,6 @@
 				270F04E93ECF6ACF285BB816 /* Pods-iOS-Messenger.debug.xcconfig */,
 				39D4CCFE28070949A275E9FA /* Pods-iOS-Messenger.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -95,6 +96,7 @@
 		94F396ED27B41FF20020EA72 /* iOS-Messenger */ = {
 			isa = PBXGroup;
 			children = (
+				94F3971727B443C50020EA72 /* GoogleService-Info.plist */,
 				94F3970727B4207E0020EA72 /* Resources */,
 				94F3970627B420560020EA72 /* Models */,
 				94F3970427B4202D0020EA72 /* Controllers */,
@@ -222,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94F396FB27B41FF20020EA72 /* LaunchScreen.storyboard in Resources */,
+				94F3971827B443C50020EA72 /* GoogleService-Info.plist in Resources */,
 				94F396F827B41FF20020EA72 /* Assets.xcassets in Resources */,
 				94F396F627B41FF20020EA72 /* Main.storyboard in Resources */,
 			);
