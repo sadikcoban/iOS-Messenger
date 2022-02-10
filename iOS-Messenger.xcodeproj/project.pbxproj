@@ -22,6 +22,7 @@
 		94F3971327B420E70020EA72 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F3971227B420E70020EA72 /* ProfileViewController.swift */; };
 		94F3971627B428AA0020EA72 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F3971527B428AA0020EA72 /* Extensions.swift */; };
 		94F3971827B443C50020EA72 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 94F3971727B443C50020EA72 /* GoogleService-Info.plist */; };
+		94F3971A27B44E110020EA72 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F3971927B44E110020EA72 /* DatabaseManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		94F3971227B420E70020EA72 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		94F3971527B428AA0020EA72 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		94F3971727B443C50020EA72 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		94F3971927B44E110020EA72 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		B5AB9DE2DE47569085A0EFE0 /* Pods_iOS_Messenger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Messenger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -150,6 +152,7 @@
 				94F396EE27B41FF20020EA72 /* AppDelegate.swift */,
 				94F396F027B41FF20020EA72 /* SceneDelegate.swift */,
 				94F3971527B428AA0020EA72 /* Extensions.swift */,
+				94F3971927B44E110020EA72 /* DatabaseManager.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94F3970927B420B80020EA72 /* LoginViewController.swift in Sources */,
+				94F3971A27B44E110020EA72 /* DatabaseManager.swift in Sources */,
 				94F3970F27B420D30020EA72 /* NewConversationViewController.swift in Sources */,
 				94F3970B27B420BE0020EA72 /* RegisterViewController.swift in Sources */,
 				94F396F327B41FF20020EA72 /* ConvresationsViewController.swift in Sources */,
